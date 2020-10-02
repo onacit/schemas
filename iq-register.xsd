@@ -6,10 +6,14 @@
     xmlns='jabber:iq:register'
     elementFormDefault='qualified'>
 
+<!--  <xs:import namespace='jabber:x:data'-->
+<!--             schemaLocation='https://xmpp.org/schemas/x-data.xsd'/>-->
   <xs:import namespace='jabber:x:data'
-             schemaLocation='https://xmpp.org/schemas/x-data.xsd'/>
+             schemaLocation='x-data.xsd'/>
+<!--  <xs:import namespace='jabber:x:oob'-->
+<!--             schemaLocation='https://xmpp.org/schemas/x-oob.xsd'/>-->
   <xs:import namespace='jabber:x:oob'
-             schemaLocation='https://xmpp.org/schemas/x-oob.xsd'/>
+             schemaLocation='x-oob.xsd'/>
 
   <xs:annotation>
     <xs:documentation>

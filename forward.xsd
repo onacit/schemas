@@ -13,12 +13,18 @@
     </xs:documentation>
   </xs:annotation>
 
+<!--  <xs:import namespace='jabber:client'-->
+<!--             schemaLocation='https://xmpp.org/schemas/jabber-client.xsd'/>-->
   <xs:import namespace='jabber:client'
-             schemaLocation='https://xmpp.org/schemas/jabber-client.xsd'/>
+             schemaLocation='jabber-client.xsd'/>
+<!--  <xs:import namespace='jabber:server'-->
+<!--             schemaLocation='https://xmpp.org/schemas/jabber-server.xsd'/>-->
   <xs:import namespace='jabber:server'
-             schemaLocation='https://xmpp.org/schemas/jabber-server.xsd'/>
+             schemaLocation='jabber-server.xsd'/>
+<!--  <xs:import namespace='urn:xmpp:delay'-->
+<!--             schemaLocation='https://xmpp.org/schemas/delay.xsd'/>-->
   <xs:import namespace='urn:xmpp:delay'
-             schemaLocation='https://xmpp.org/schemas/delay.xsd'/>
+             schemaLocation='delay.xsd'/>
 
   <xs:element name='forwarded'>
     <xs:complexType>

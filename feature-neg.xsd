@@ -6,8 +6,10 @@
     xmlns='http://jabber.org/protocol/feature-neg'
     elementFormDefault='qualified'>
 
+<!--  <xs:import namespace='jabber:x:data'-->
+<!--             schemaLocation='https://xmpp.org/schemas/x-data.xsd'/>-->
   <xs:import namespace='jabber:x:data'
-             schemaLocation='https://xmpp.org/schemas/x-data.xsd'/>
+             schemaLocation='x-data.xsd'/>
 
   <xs:annotation>
     <xs:documentation>

@@ -45,4 +45,10 @@
     </xs:simpleContent>
   </xs:complexType>
 
+  <xs:simpleType name='empty'>
+    <xs:restriction base='xs:string'>
+      <xs:enumeration value=''/>
+    </xs:restriction>
+  </xs:simpleType>
+
 </xs:schema>

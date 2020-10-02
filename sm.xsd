@@ -13,8 +13,10 @@
     </xs:documentation>
   </xs:annotation>
 
+<!--  <xs:import namespace='urn:ietf:params:xml:ns:xmpp-stanzas'-->
+<!--             schemaLocation='https://xmpp.org/schemas/stanzaerror.xsd'/>-->
   <xs:import namespace='urn:ietf:params:xml:ns:xmpp-stanzas'
-             schemaLocation='https://xmpp.org/schemas/stanzaerror.xsd'/>
+             schemaLocation='stanzaerror.xsd'/>
 
   <xs:element name='a'>
     <xs:complexType>

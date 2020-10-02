@@ -13,8 +13,10 @@
     </xs:documentation>
   </xs:annotation>
 
+<!--  <xs:import namespace='jabber:client'-->
+<!--             schemaLocation='https://xmpp.org/schemas/jabber-client.xsd'/>-->
   <xs:import namespace='jabber:client'
-             schemaLocation='https://xmpp.org/schemas/jabber-client.xsd'/>
+             schemaLocation='jabber-client.xsd'/>
 
   <xs:element name='waitlist'>
     <xs:complexType>

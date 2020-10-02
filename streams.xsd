@@ -7,16 +7,26 @@
     xmlns='http://etherx.jabber.org/streams'
     elementFormDefault='unqualified'>
 
+<!--  <xs:import namespace='jabber:client'-->
+<!--             schemaLocation='https://xmpp.org/schemas/jabber-client.xsd'/>-->
   <xs:import namespace='jabber:client'
-             schemaLocation='https://xmpp.org/schemas/jabber-client.xsd'/>
+             schemaLocation='jabber-client.xsd'/>
+<!--  <xs:import namespace='jabber:server'-->
+<!--             schemaLocation='https://xmpp.org/schemas/jabber-server.xsd'/>-->
   <xs:import namespace='jabber:server'
-             schemaLocation='https://xmpp.org/schemas/jabber-server.xsd'/>
+             schemaLocation='jabber-server.xsd'/>
+<!--  <xs:import namespace='urn:ietf:params:xml:ns:xmpp-sasl'-->
+<!--             schemaLocation='https://xmpp.org/schemas/sasl.xsd'/>-->
   <xs:import namespace='urn:ietf:params:xml:ns:xmpp-sasl'
-             schemaLocation='https://xmpp.org/schemas/sasl.xsd'/>
+             schemaLocation='sasl.xsd'/>
+<!--  <xs:import namespace='urn:ietf:params:xml:ns:xmpp-streams'-->
+<!--             schemaLocation='https://xmpp.org/schemas/streamerror.xsd'/>-->
   <xs:import namespace='urn:ietf:params:xml:ns:xmpp-streams'
-             schemaLocation='https://xmpp.org/schemas/streamerror.xsd'/>
+             schemaLocation='streamerror.xsd'/>
+<!--  <xs:import namespace='urn:ietf:params:xml:ns:xmpp-tls'-->
+<!--             schemaLocation='https://xmpp.org/schemas/tls.xsd'/>-->
   <xs:import namespace='urn:ietf:params:xml:ns:xmpp-tls'
-             schemaLocation='https://xmpp.org/schemas/tls.xsd'/>
+             schemaLocation='tls.xsd'/>
   <xs:import namespace='http://www.w3.org/XML/1998/namespace'
              schemaLocation='https://www.w3.org/2001/03/xml.xsd'/>
 
